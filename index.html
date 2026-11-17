@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Claim Your $500 Tractor Supply Co. Gift Card</title>
+    <meta
+      name="description"
+      content="Follow these simple steps to claim your $500 Tractor Supply Co. gift card reward."
+    />
+    <meta property="og:title" content="Claim Your $500 Tractor Supply Co. Gift Card" />
+    <meta
+      property="og:description"
+      content="Follow these simple steps to claim your $500 Tractor Supply Co. gift card reward."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;900&family=Archivo+Black&display=swap"
+    />
+    <style>
+      :root {
+        --background: #fcfaf8;
+        --foreground: #181614;
+        --card: #ffffff;
+        --primary: #c90d23;
+        --primary-foreground: #fcfcfc;
+        --muted: #f7f5f3;
+        --muted-foreground: #625c58;
+        --border: #e4e0de;
+        --shadow-cta: 0 10px 24px -8px rgba(201, 13, 35, 0.55);
+        --font-display: "Archivo Black", "Archivo", sans-serif;
+        --font-sans: "Archivo", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        background-color: var(--background);
+        color: var(--foreground);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .page {
+        min-height: 100vh;
+        padding: 40px 16px;
+      }
+
+      .wrap {
+        max-width: 576px;
+        margin: 0 auto;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      /* Logo badge */
+      .logo {
+        display: inline-block;
+        background-color: var(--primary);
+        color: var(--primary-foreground);
+        font-family: var(--font-display);
+        font-size: 24px;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: -0.02em;
+        line-height: 1.15;
+        padding: 8px 16px;
+        border-radius: 6px;
+      }
+
+      .logo-rule {
+        width: 56px;
+        height: 4px;
+        border-radius: 999px;
+        background-color: var(--primary);
+        margin: 12px auto 0;
+      }
+
+      h1 {
+        font-family: var(--font-display);
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 24px 0 0;
+      }
+
+      .lede {
+        font-size: 14px;
+        color: var(--muted-foreground);
+        margin: 8px 0 0;
+      }
+
+      /* Steps card */
+      .card {
+        background-color: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        padding: 12px;
+        margin-top: 24px;
+      }
+
+      .steps {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .step {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background-color: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 12px;
+      }
+
+      .step-num {
+        flex: 0 0 auto;
+        width: 28px;
+        height: 28px;
+        border-radius: 999px;
+        background-color: var(--primary);
+        color: var(--primary-foreground);
+        font-size: 14px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .step-text {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      /* CTA */
+      .cta {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        padding: 16px 12px;
+        border: 0;
+        border-radius: 14px;
+        background-color: var(--primary);
+        color: var(--primary-foreground);
+        font-family: var(--font-display);
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        cursor: pointer;
+        box-shadow: var(--shadow-cta);
+        transition: filter 0.15s ease;
+      }
+
+      .cta:hover {
+        filter: brightness(1.1);
+      }
+
+      .cta:active {
+        filter: brightness(0.95);
+      }
+
+      .fine-print {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        text-align: center;
+        margin: 8px 0 0;
+      }
+
+      /* FAQ */
+      h2 {
+        font-family: var(--font-display);
+        font-size: 24px;
+        font-weight: 900;
+        margin: 40px 0 0;
+      }
+
+      .faq {
+        margin-top: 12px;
+        background-color: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+      }
+
+      .faq-item + .faq-item {
+        border-top: 1px solid var(--border);
+      }
+
+      .faq-q {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        width: 100%;
+        padding: 12px 16px;
+        border: 0;
+        background: none;
+        color: var(--foreground);
+        font-family: var(--font-sans);
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+      }
+
+      .chev {
+        flex: 0 0 auto;
+        width: 16px;
+        height: 16px;
+        transition: transform 0.2s ease;
+      }
+
+      .faq-item.open .chev {
+        transform: rotate(180deg);
+      }
+
+      .faq-a {
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.25s ease;
+      }
+
+      .faq-item.open .faq-a {
+        grid-template-rows: 1fr;
+      }
+
+      .faq-a > div {
+        overflow: hidden;
+      }
+
+      .faq-a p {
+        margin: 0;
+        padding: 0 16px 12px;
+        font-size: 14px;
+        color: var(--muted-foreground);
+      }
+
+      .disclaimer {
+        margin-top: 32px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.6;
+        color: var(--muted-foreground);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <div class="wrap">
+        <div class="center">
+          <div class="logo">TRACTOR SUPPLY CO.</div>
+          <div class="logo-rule"></div>
+          <h1>Complete Your Registration</h1>
+          <p class="lede">
+            Follow these simple steps to claim your $500 Tractor Supply Co. gift card
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="steps">
+            <div class="step">
+              <span class="step-num">1</span>
+              <span class="step-text">Click on "Claim Now"</span>
+            </div>
+            <div class="step">
+              <span class="step-num">2</span>
+              <span class="step-text">Enter your email and basic info</span>
+            </div>
+            <div class="step">
+              <span class="step-num">3</span>
+              <span class="step-text">Complete 3-5 sponsored deals</span>
+            </div>
+            <div class="step">
+              <span class="step-num">4</span>
+              <span class="step-text">Enjoy your $500 Tractor Supply Co. gift card!</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="cta" type="button">Claim Now</button>
+        <p class="fine-print">
+          By clicking "Claim Now", you agree to complete the required steps to receive
+          your gift card.
+        </p>
+
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq" id="faq">
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              How long do the deals take?
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </button>
+            <div class="faq-a"><div><p>Most deals take just a few minutes to complete. Some may require a short trial or purchase.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              What are deals?
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </button>
+            <div class="faq-a"><div><p>Deals are offers from our sponsors, such as surveys, app sign-ups, or trial subscriptions.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              How many deals do I have to do?
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </button>
+            <div class="faq-a"><div><p>You need to complete between 3 and 5 sponsored deals to qualify for the reward.</p></div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" type="button" aria-expanded="false">
+              When will I receive my reward?
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+            </button>
+            <div class="faq-a"><div><p>Rewards are typically delivered by email within a few business days after all steps are verified.</p></div></div>
+          </div>
+        </div>
+
+        <p class="disclaimer">
+          This promotion is not sponsored, endorsed by, or affiliated with Tractor Supply
+          Co. Tractor Supply Co. is a registered trademark of its owner. Reward requires
+          completion of sponsored offers.
+        </p>
+      </div>
+    </main>
+
+    <script>
+      document.getElementById("faq").addEventListener("click", function (e) {
+        var btn = e.target.closest(".faq-q");
+        if (!btn) return;
+        var item = btn.parentElement;
+        var isOpen = item.classList.contains("open");
+        document.querySelectorAll(".faq-item.open").forEach(function (o) {
+          o.classList.remove("open");
+          o.querySelector(".faq-q").setAttribute("aria-expanded", "false");
+        });
+        if (!isOpen) {
+          item.classList.add("open");
+          btn.setAttribute("aria-expanded", "true");
+        }
+      });
+    </script>
+  </body>
+</html>
